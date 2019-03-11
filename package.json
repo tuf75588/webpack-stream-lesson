@@ -1,0 +1,28 @@
+{
+  "name": "webpack-stream-lesson",
+  "version": "1.0.0",
+  "description": "- [ ] What is webpack? - [ ] Okay, so why the heck do we need it? - [ ] Install Webpack - [ ] Setup our webpack.config.js file",
+  "main": "index..js",
+  "private": true,
+  "scripts": {
+    "start": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuf75588/webpack-stream-lesson.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "Andrew Davis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tuf75588/webpack-stream-lesson/issues"
+  },
+  "homepage": "https://github.com/tuf75588/webpack-stream-lesson#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
+  }
+}
