@@ -7,6 +7,9 @@ const config = {
   output: {
     filename: 'index_bundle.js',
     path: path.resolve(__dirname, 'dist')
+  },
+  module: {
+    rules: [{ test: /\.css$/, use: ['style-loader', 'css-loader'] }]
   }
 };
 module.exports = config;
